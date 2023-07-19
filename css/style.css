@@ -56,4 +56,6 @@ header{
 }
 
 /* main */
-
+main{
+  padding-top: 120px;
+}
