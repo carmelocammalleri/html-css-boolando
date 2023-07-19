@@ -64,6 +64,11 @@ main{
   width: 350px;
 }
 
+.model.view{
+  position: absolute;
+  left: 0;
+}
+
 .product{
   position:relative;
   width: 350px;
