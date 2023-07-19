@@ -149,17 +149,21 @@ main{
 
 footer{
   background-color: #1A1A1A;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-bottom: 1px solid white;
   color: white;
 }
 
-.society .foot-list li{
+.foot-list li{
   list-style: none;
-  display: inline;
+  display: inline-block;
 }
 
-.society .foot-list li a{
+.foot-list li a{
   text-decoration: none;
   color: white;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
