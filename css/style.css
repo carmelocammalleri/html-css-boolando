@@ -60,18 +60,30 @@ main{
   padding-top: 120px;
 }
 
-.model{
-  width: 350px;
-}
-
-.model.view{
-  position: absolute;
-  left: 0;
-}
-
 .product{
   position:relative;
   width: 350px;
+}
+
+.model{
+  width: 350px;
+  cursor: pointer;
+}
+
+.model.part{
+  display: block;
+}
+
+.model.view{
+  display: none;
+}
+
+.trasp:hover .model.part{
+  display: none;
+}
+
+.trasp:hover .model.view{
+  display: block;
 }
 
 .heart{
