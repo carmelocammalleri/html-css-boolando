@@ -34,21 +34,21 @@ header{
   padding: 20px;
 }
 
-.container ul li{
+.container .menu li{
   list-style: none;
   display: inline;
 }
 
-.container ul li a{
+.container .menu li a{
   text-decoration: none;
   color: white;
 }
 
-.container ul:first-child li a{
+.container .menu:first-child li a{
   margin-right: 10px ;
 }
 
-.container ul:last-child li a{
+.container .menu:last-child li a{
   margin-left: 10px ;
 }
 
@@ -144,3 +144,22 @@ main{
 .title{
   text-transform: uppercase;
 }
+
+/* footer */
+
+footer{
+  background-color: #1A1A1A;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.society .foot-list li{
+  list-style: none;
+  display: inline;
+}
+
+.society .foot-list li a{
+  text-decoration: none;
+  color: white;
