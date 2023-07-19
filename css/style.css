@@ -23,6 +23,7 @@ body{
 header{
   background-color: #FF6900 ;
   position: fixed;
+  z-index: 999;
   width: 100%;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.228);
 }
@@ -62,11 +63,18 @@ main{
 
 .product{
   position:relative;
-  width: 350px;
+  width:calc(100% / 3.2);
+  margin-bottom: 60px;
+}
+
+.cards{
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .model{
-  width: 350px;
+  width:100%;
+  height: auto;
   cursor: pointer;
 }
 
@@ -95,7 +103,7 @@ main{
   font-size: 1.5rem;
 }
 
-.trasp:hover .heart{
+.heart:hover{
   color: red;
   cursor: pointer;
 }
@@ -131,4 +139,8 @@ main{
 .price{
   text-decoration:line-through;
   font-weight: 700;
+}
+
+.title{
+  text-transform: uppercase;
 }
