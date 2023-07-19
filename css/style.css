@@ -61,12 +61,12 @@ main{
 }
 
 .model{
-  width: 300px;
+  width: 350px;
 }
 
 .product{
   position:relative;
-  width: 300px;
+  width: 330px;
 }
 
 .heart{
@@ -78,20 +78,22 @@ main{
   font-size: 1.5rem;
 }
 
-.sale,.eco{
+.label{
   position: absolute;
-  bottom: 80px;
-  left: 0;
-  padding: 5px 10px;
+  bottom: 100px;
   color: white;
+  font-weight: 700;
+  font-size: .8rem;
 }
+
 .sale{
   background-color: red;
+  padding: 5px 10px;
 }
 
 .eco{
   background-color: green;
-  left: 65px;
+  padding: 5px 10px;
 }
 
 .brand{
