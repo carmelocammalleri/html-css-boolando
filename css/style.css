@@ -6,6 +6,39 @@
 
 .container{
   width: 90%;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
+}
+
+.flex{
+  display: flex;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+
+header{
+  background-color: #FF6900 ;
+}
+
+.container.flex{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container ul li{
+  list-style: none;
+  display: inline;
+}
+
+.container ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+#logo{
+  width: 20%;
 }
