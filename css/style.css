@@ -66,6 +66,7 @@ main{
 
 .product{
   position:relative;
+  width: 300px;
 }
 
 .heart{
@@ -78,7 +79,7 @@ main{
 
 .sale{
   position: absolute;
-  bottom: 20px;
+  bottom: 60px;
   left: 0;
   background-color: red;
   padding: 10px;
@@ -86,8 +87,12 @@ main{
 
 .eco{
   position: absolute;
-  bottom: 20px;
+  bottom: 60px;
   left: 60px;
   background-color: green;
   padding: 10px;
+}
+
+.brand{
+  display: block;
 }
