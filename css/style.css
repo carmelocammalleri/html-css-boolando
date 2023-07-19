@@ -95,6 +95,11 @@ main{
   font-size: 1.5rem;
 }
 
+.trasp:hover .heart{
+  color: red;
+  cursor: pointer;
+}
+
 .label{
   position: absolute;
   bottom: 100px;
