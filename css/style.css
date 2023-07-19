@@ -24,6 +24,7 @@ header{
   background-color: #FF6900 ;
   position: fixed;
   width: 100%;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.228);
 }
 
 .container.flex{
