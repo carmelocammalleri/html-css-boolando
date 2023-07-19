@@ -74,23 +74,24 @@ main{
   top: 10px;
   right: 0px;
   background-color: white;
-  padding: 10px;
+  padding: 5px 10px;
+  font-size: 1.5rem;
 }
 
-.sale{
+.sale,.eco{
   position: absolute;
-  bottom: 60px;
+  bottom: 80px;
   left: 0;
+  padding: 5px 10px;
+  color: white;
+}
+.sale{
   background-color: red;
-  padding: 10px;
 }
 
 .eco{
-  position: absolute;
-  bottom: 60px;
-  left: 60px;
   background-color: green;
-  padding: 10px;
+  left: 65px;
 }
 
 .brand{
